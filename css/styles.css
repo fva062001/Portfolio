@@ -1,0 +1,84 @@
+body{
+    background-color: black;
+}
+/* Title section */
+#title-section{
+    background-color: black;
+    padding-bottom: 100px;
+
+}
+
+.navbar {
+    padding-top:10px !important;
+    padding-bottom: 10px !important;  
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem !important;
+    font-family: 'Anonymous Pro', monospace;
+    font-weight: 300 !important;
+    color: white !important;
+}
+
+.main-title{
+    color: white;
+    padding-top: 15% !important;
+    padding-right: 3% !important;
+    text-align: center;
+    font-family: 'Montserrat',sans-serif;
+}
+
+.logo-image{
+    margin-top: 15%;
+    margin-left: 30%;
+    width: 40%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.main-titleImage{
+    width: 50% !important;
+    height: auto !important;
+}
+
+/* Developing section */
+
+#developing-section
+{
+    background-color: black;
+}
+
+.developing-section{
+    margin-left: 7% !important;
+    margin-right: 7% !important;
+    padding-bottom: 100px !important;
+
+}
+
+.backendError{
+    margin-top: 30px;
+    width: 75% ;
+    height: auto;
+}
+
+.developing-section-content{
+    color: white;
+    padding-top: 15% !important;
+    padding-right: 3% !important;
+    font-family: 'Montserrat',sans-serif;
+    font-size: 25px;
+}
+
+.developing-title{
+    margin-bottom: 10px;
+}
+
+
+
+
+
+/* Languages section */
