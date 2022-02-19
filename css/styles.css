@@ -7,10 +7,13 @@ body{
     padding-bottom: 100px;
 
 }
+
 .navbar-toggler{
-    margin-left: 20px;
-     font-size: 100px !important;
+     margin-top: 15px;
+     margin-left: 20px;
+     font-size: 75px !important;
 }
+
 
 .navbar {
     padding-top:10px !important;
