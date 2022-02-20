@@ -11,7 +11,7 @@ body{
 .navbar-toggler{
      margin-top: 15px;
      margin-left: 20px;
-     font-size: 75px !important;
+     font-size: 3.25rem !important;
 }
 
 
@@ -22,13 +22,21 @@ body{
 
 .nav-item {
     padding: 0 18px;
+    margin-top: 15px;
+     margin-left: 20px;
+     font-size: 3.25rem !important;
 }
 
 .nav-link {
-    font-size: 1.2rem !important;
+    font-size: 3.0rem !important;
     font-family: 'Anonymous Pro', monospace;
     font-weight: 300 !important;
-    color: white !important;
+}
+
+.show{
+    font-size: 300px !important;
+    font-family: 'Anonymous Pro', monospace;
+    font-weight: 300 !important;
 }
 
 .main-title{
