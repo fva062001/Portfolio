@@ -30,11 +30,7 @@ body{
     font-weight: 300 !important;
 }
 
-.show{
-    font-size: 300px !important;
-    font-family: 'Anonymous Pro', monospace;
-    font-weight: 300 !important;
-}
+
 
 .main-title{
     color: white;
@@ -46,8 +42,8 @@ body{
 
 .logo-image{
     margin-top: 15%;
-    margin-left: 30%;
-    width: 40%;
+    margin-left: 25%;
+    width: 50%;
     text-align: center;
     margin-bottom: 50px;
 }
