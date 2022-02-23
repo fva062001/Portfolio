@@ -40,6 +40,9 @@ body{
     font-family: 'Montserrat',sans-serif;
 }
 
+h2{
+    font-size: 50px !important;
+}
 .logo-image{
     margin-top: 15%;
     margin-left: 25%;
@@ -47,6 +50,11 @@ body{
     text-align: center;
     margin-bottom: 50px;
 }
+
+p{
+    font-size: 30px !important;
+}
+
 
 .main-titleImage{
     width: 50% !important;
