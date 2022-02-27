@@ -63,3 +63,12 @@ body {
        opacity: 1;
     }
   }
+
+  .fingerprint {
+    animation: cssAnimation 0s 4s forwards;
+    visibility: hidden;
+  }
+  
+  @keyframes cssAnimation {
+    to   { visibility: visible; }
+  }
