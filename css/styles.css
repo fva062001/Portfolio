@@ -25,7 +25,7 @@ body{
 }
 
 .nav-link {
-    font-size: 3vh !important;
+    font-size: 2.7vh !important;
     font-family: 'Anonymous Pro', monospace;
     font-weight: 300 !important;
 }
@@ -82,7 +82,7 @@ p{
 }
 
 .developing-section-content{
-    color: white;
+    color: #cecece;
     padding-top: 15% !important;
     padding-right: 3% !important;
     font-family: 'Montserrat',sans-serif;
