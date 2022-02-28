@@ -87,8 +87,81 @@ p{
     width: 50%;
 }
 
-
-
-
-
 /* Languages section */
+
+#languages-section{
+    text-align: center;
+}
+
+.known-languages-image{
+
+    margin-bottom: 10%;
+    width: 40%;
+}
+
+.js-logo{
+    width: 13%;
+}
+
+.java-logo{
+    width:13%;
+}
+
+.python-logo{
+    width:13.38%; 
+}
+
+.csharp-logo{
+    width: 11.65%;
+}
+
+.cplus-logo{
+    width: 11.6%;
+}
+
+.languages-text{
+    margin-top: 20px;
+    color: #cecece;
+    font-family: 'Montserrat',sans-serif;
+}
+
+.carousel{
+    margin-bottom: 10%;
+}
+
+.carousel-item
+{
+    height: 10% !important;
+}
+
+/* Contact section */
+
+h1{
+    color: white;
+    text-align: center;
+    font-family: 'Montserrat',sans-serif;
+    margin-top: 10%  !important;
+    margin-bottom: 30px  !important;
+}
+
+.contact-logos{
+    width: 10%;
+}
+
+.instagram{
+    text-align: center;
+}
+.github{
+    text-align: left;
+}
+.mailto{
+    text-align: right;
+}
+
+.logoBox{
+    padding: 3%;
+}
+
+#contact-section{
+    margin-bottom: 5%;
+}

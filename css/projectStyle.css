@@ -67,6 +67,7 @@ body {
   .fingerprint {
     animation: cssAnimation 0s 4s forwards;
     visibility: hidden;
+    -webkit-tap-highlight-color: transparent;
   }
   
   @keyframes cssAnimation {
