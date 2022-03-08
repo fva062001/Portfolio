@@ -165,3 +165,11 @@ h1{
 #contact-section{
     margin-bottom: 5%;
 }
+
+/* Footer section */
+
+.c{
+    color: white; 
+    text-align: center;
+    margin-top: 8px;
+}
