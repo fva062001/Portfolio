@@ -49,15 +49,10 @@ export const WavyBackground = ({
   const init = () => {
     canvas = canvasRef.current;
     ctx = canvas.getContext('2d');
-    w = ctx.canvas.width = screen.width;
-    h = ctx.canvas.height = screen.height;
+    w = ctx.canvas.width = window.innerWidth;
+    h = ctx.canvas.height = window.innerHeight;
     ctx.filter = `blur(${blur}px)`;
     nt = 0;
-    window.onresize = function () {
-      w = ctx.canvas.width = screen.width;
-      h = ctx.canvas.height = screen.height;
-      ctx.filter = `blur(${blur}px)`;
-    };
     render();
   };
   const waveColors = colors ?? [
