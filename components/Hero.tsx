@@ -1,6 +1,6 @@
 'use client';
 import React from 'react';
-import { WavyBackground } from './wavy-background';
+import { WavyBackground } from './UI/wavy-background';
 
 function Hero() {
   return (
@@ -8,8 +8,10 @@ function Hero() {
       speed="fast"
       waveOpacity={0.5}
       waveWidth={100}
-      className="max-w-4xl mx-auto pb-40">
-      <div className="flex flex-col items-center justify-center h-full text-center">
+      className="max-w-4xl pb-40">
+      <div
+        className="flex flex-col items-center justify-center  text-center"
+        id="header">
         <p className="text-4xl md:text-4xl lg:text-7xl text-white font-extrabold inter-var">
           Fernando Arturo Valerio
         </p>

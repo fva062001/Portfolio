@@ -1,5 +1,5 @@
 'use client';
-import { cn } from '../utils/cn';
+import { cn } from '../../utils/cn';
 import React, { useEffect, useRef } from 'react';
 import { createNoise3D } from 'simplex-noise';
 
@@ -55,12 +55,11 @@ export const WavyBackground = ({
     nt = 0;
     render();
   };
-  const waveColors = colors ?? [
-    '#004d00', // deep forest green
-    '#008000', // standard green
-    '#00b300', // lime green
-    '#00e600', // light lime green
-    '#00ff00', // neon green
+  const waveColors = [
+    '#6B46C1', // from-purple-500
+    '#6574CD', // custom
+    '#4299E1', // via-blue-500
+    '#63B3ED', // custom
   ];
   const drawWave = (n: number) => {
     nt += getSpeed();
@@ -96,7 +95,7 @@ export const WavyBackground = ({
   return (
     <div
       className={cn(
-        'h-screen flex flex-col items-center justify-center',
+        'h-screen max-w-screen flex flex-col items-center justify-center',
         containerClassName
       )}>
       <canvas

@@ -4,13 +4,12 @@ import { FaLinkedin } from 'react-icons/fa';
 import { FaInstagram } from 'react-icons/fa';
 import { LiaGripLinesSolid } from 'react-icons/lia';
 import { useContext } from 'react';
-import { NavbarContext } from '../context/NavbarContext';
+import { NavbarContext } from '../../context/NavbarContext';
 import { IoMdClose } from 'react-icons/io';
+import HamburgerMenu from './HamburgerMenu';
 
 function Navbar() {
   const navbarContext = useContext(NavbarContext);
-
-  console.log(navbarContext?.isNavbarOpen);
 
   return (
     <>
@@ -69,30 +68,7 @@ function Navbar() {
           )}
         </div>
       </div>
-      {navbarContext?.isNavbarOpen && (
-        <div
-          className="absolute bg-black mt-[4.6rem] z-30 text-white w-screen overflow-hidden"
-          style={{ height: 'calc(100% - 4.6rem)' }}>
-          {' '}
-          <div className="flex flex-col px-8 space-y-6 py-4">
-            <a
-              href="/about"
-              className="text-2xl font-normal my-auto text-[#515151] hover:text-white transition-colors duration-150  lg:hidden">
-              About
-            </a>
-            <a
-              href="/projects"
-              className="text-2xl font-normal  my-auto text-[#515151] hover:text-white transition-colors duration-150  lg:hidden">
-              Projects
-            </a>
-            <a
-              href="/contact"
-              className="text-2xl font-normal  my-auto text-[#515151] hover:text-white transition-colors duration-150  lg:hidden">
-              Contact
-            </a>
-          </div>
-        </div>
-      )}
+      {navbarContext?.isNavbarOpen && <HamburgerMenu />}
     </>
   );
 }
