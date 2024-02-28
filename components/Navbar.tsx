@@ -70,7 +70,10 @@ function Navbar() {
         </div>
       </div>
       {navbarContext?.isNavbarOpen && (
-        <div className="absolute bg-black h-screen mt-[4.6rem] z-30 text-white w-screen">
+        <div
+          className="absolute bg-black mt-[4.6rem] z-30 text-white w-screen overflow-hidden"
+          style={{ height: 'calc(100% - 4.6rem)' }}>
+          {' '}
           <div className="flex flex-col px-8 space-y-6 py-4">
             <a
               href="/about"
