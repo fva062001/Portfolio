@@ -4,6 +4,7 @@ import { Inter } from 'next/font/google';
 import './globals.css';
 import Navbar from '../../components/UI/Navbar';
 import { NavbarProvider } from '../../context/NavbarContext';
+
 const inter = Inter({ subsets: ['latin'] });
 
 export default function RootLayout({
@@ -13,11 +14,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <head>
-        <script
-          type="module"
-          src="https://unpkg.com/@splinetool/viewer@1.0.66/build/spline-viewer.js"></script>
-      </head>
       <body className={(inter.className, 'relative')}>
         <NavbarProvider>
           <Navbar />
