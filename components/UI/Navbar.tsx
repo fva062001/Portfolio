@@ -13,7 +13,7 @@ function Navbar() {
 
   return (
     <>
-      <div className="absolute py-4 w-full top-0 flex flex-row justify-between z-20 text-white px-8 lg:px-40 border-b-[0.1px] border-[#333333]">
+      <div className="absolute py-4 w-full top-0 flex flex-row justify-between z-20 text-white px-8 lg:px-40 ">
         <div className="flex flex-row space-x-6 align-middle justify-items-center">
           <a
             href="/"
@@ -22,21 +22,21 @@ function Navbar() {
           </a>
           <a
             href="/about"
-            className="text-md font-medium my-auto text-[#515151] hover:text-white transition-colors duration-150 hidden lg:inline">
+            className="text-md font-medium my-auto text-white hover:text-white transition-colors duration-150 hidden lg:inline">
             About
           </a>
           <a
             href="/projects"
-            className="text-md font-medium ml-4 my-auto text-[#515151] hover:text-white transition-colors duration-150 hidden lg:inline">
+            className="text-md font-medium ml-4 my-auto text-white hover:text-white transition-colors duration-150 hidden lg:inline">
             Projects
           </a>
           <a
             href="/contact"
-            className="text-md font-medium ml-4 my-auto text-[#515151] hover:text-white transition-colors duration-150 hidden lg:inline">
+            className="text-md font-medium ml-4 my-auto text-white hover:text-white transition-colors duration-150 hidden lg:inline">
             Contact
           </a>
         </div>
-        <div className=" flex-row justify-end text-[#515151] space-x-4 text-2xl my-auto hidden lg:flex">
+        <div className=" flex-row justify-end text-white space-x-4 text-2xl my-auto hidden lg:flex">
           <a
             target="_blank"
             href="https://github.com/fva062001">
