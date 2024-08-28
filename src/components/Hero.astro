@@ -1,0 +1,51 @@
+---
+const personalImageAlt = "Fernando Valerio"
+import Badge from "@/components/Badge.astro"
+import LinkedInIcon from "@/components/icons/LinkedIn.astro"
+import GithubIcon from "@/components/icons/GitHub.astro"
+import MailIcon from "@/components/icons/Mail.astro"
+import SocialPill from "@/components/SocialPill.astro"
+---
+
+<div class="max-w-xl">
+  <div class="flex gap-4 mb-4">
+    <img
+      class="rounded-full shadow-lg size-16"
+      src="/fernando.webp"
+      alt={personalImageAlt}
+    />
+    <a
+      href="https://www.linkedin.com/in/fernando-arturo-valerio-del-valle-2a1614230"
+      target="_blank"
+      rel="noopener"
+      class="flex items-center transition md:justify-center md:hover:scale-105"
+    >
+      <Badge>Available To Work</Badge>
+    </a>
+  </div>
+  <h1
+    class="text-4xl font-bold tracking-tight text-gray-800 sm:text-5xl dark:text-white"
+  >
+    Hi, Im Fernando Valerio
+  </h1>
+  <p
+  class="mt-6 text-xl text-gray-800 dark:[&>strong]:text-blue-200 [&>strong]:text-blue-500 [&>strong]:font-semibold dark:text-gray-300"
+>
+  3+ years of experience. <strong>Frontend Developer</strong> and <strong>UI/UX Designer</strong> based in Dominican Republic. Specializing in creating <strong>dynamic and user-friendly websites</strong> and web applications. Proficient in <strong>HTML, CSS, JavaScript</strong>, and frontend frameworks like <strong>React</strong> and <strong>Angular</strong>. Passionate about continuous learning, with a growing interest in integrating <strong>DevOps practices</strong> into my workflow.
+</p>
+
+  <nav class="flex flex-wrap gap-4 mt-8">
+    <SocialPill href="mailto:fernandoarturo06@gmail.com">
+      <MailIcon class="size-4" />
+      Contáctame
+    </SocialPill>
+    <SocialPill href="https://www.linkedin.com/in/fernando-arturo-valerio-del-valle-2a1614230">
+      <LinkedInIcon class="size-4" />
+      LinkedIn
+    </SocialPill>
+    <SocialPill href="https://github.com/fva062001">
+      <GithubIcon class="size-4" />
+      Github
+    </SocialPill>
+  </nav>
+</div>

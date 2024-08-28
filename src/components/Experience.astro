@@ -1,0 +1,44 @@
+---
+import ExperienceItem from "./ExperienceItem.astro"
+const EXPERIENCE = [
+{
+  "date": "Jun. 2024 – Present",
+  "title": "Technical Lead",
+  "company": "REOREI",
+  "description": "Led technical direction and team mentorship. Defined the technical roadmap, optimized the development process, and ensured the delivery of scalable software solutions.",
+  "location": "Boston, MA, USA",
+  "link": "https://reorei.com"
+},
+{
+  "date": "Sept. 2022 – Present",
+  "title": "Front End Lead",
+  "company": "Ministry of Environment and Natural Resources",
+  "description": "Led the design and implementation of the SINAP and VUSA systems. Developed user-friendly and responsive web applications using React and Angular. Worked closely with clients to deliver institutional-level web solutions.",
+  "location": "Distrito Nacional, DR"
+},
+{
+  "date": "Jun. 2023 – Dec. 2023",
+  "title": "Software Engineer",
+  "company": "Nobee Real State",
+  "description": "Developed the frontend for a SaaS platform in the Boston rental market. Integrated an advanced mapping system and ensured continuous system maintenance.",
+  "location": "Boston, MA, USA"
+},
+{
+  "date": "May. 2022 – Aug. 2022",
+  "title": "Frontend Developer",
+  "company": "Ministry of Economy, Planning and Development",
+  "description": "Developed administrative systems and responsive web applications. Implemented a mapping system and optimized existing websites for better performance.",
+  "location": "Distrito Nacional, DR"
+},
+]
+---
+
+<ol class="relative mt-16">
+  {
+    EXPERIENCE.map((experience) => (
+      <li class="">
+        <ExperienceItem {...experience} />
+      </li>
+    ))
+  }
+</ol>
